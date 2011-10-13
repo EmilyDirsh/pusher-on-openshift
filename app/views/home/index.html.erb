@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Memory usage demo</title>
+    <link rel="stylesheet" href="stylesheets/demo_style.css">
+  </head>
+  
+  <body>
+    <header>
+      <h1>Memory usage demo</h1>
+    </header>
+    
+    <a href='/start' class="ajax" id="stop">Start</a>
+    <a href='/stop' class="ajax" id="start">Stop</a>
+    <a href='/load' class="ajax" id="start">Eat Memory</a>
+    <a href='/clear' class="ajax" id="start">Free Memory</a>
+    
+    <div id="memory_usage"><span class="value">0</span> MiB</div>
+    
+    <div id="gauge_container"></div>
+    
+    <script src="http://js.pusherapp.com/1.9/pusher.min.js"></script>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/jquery.svg.min.js"></script>
+    <script src="javascripts/jquery.svganim.min.js"></script>
+    <script src="javascripts/demo.js"></script>
+  </body>
+</html>

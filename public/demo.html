@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    
+    <title>Memory usage demo</title>
+    
+    <link rel="stylesheet" href="css/demo_style.css">
+    
+    <script type="text/javascript" charset="utf-8">
+      /* Configuration */
+      DATA_URL = 'http://javascript-cloudydemo.rhcloud.com'
+      STOP_PATH = '/stop'
+      START_PATH = '/start'
+      LOAD_PATH = '/load'
+      CLEAR_PATH = '/clear'
+      // Pusher config
+      PUSHER_KEY = ''
+    </script>
+  </head>
+  
+  <body>
+    <header>
+      <h1>Memory tuning demo</h1>
+    </header>
+    
+    <a href='#' id="stop">Stop</a>
+    
+    <div id="memory_usage"><span class="value">0</span> MiB</div>
+    
+    <div id="gauge_container"></div>
+    
+    <script src="http://js.pusherapp.com/1.9/pusher.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.svg.min.js"></script>
+    <script src="js/jquery.svganim.min.js"></script>
+    <script src="js/demo.js"></script>
+  </body>
+</html>

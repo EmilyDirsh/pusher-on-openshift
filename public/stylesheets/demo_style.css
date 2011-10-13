@@ -1,0 +1,39 @@
+html {
+  background: #333;
+}
+
+body {
+  background: white;
+  height: 80%;
+  width: 900px;
+  min-height: 450px;
+  padding: 30px;
+  margin: 40px auto;
+  position: relative;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  border-radius: 10px;
+  position: relative;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 14px;
+  color: #333;
+}
+
+#memory_usage {
+  position: absolute;
+  top: 380px;
+  left: 200px;
+  font-weight: bold;
+  color: white;
+  font-size: 23px;
+}
+
